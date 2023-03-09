@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.vv-container {
+  margin: auto;
+  width: 100%;
+  background-color: aqua;
+}
+
+.vv-container .vv-wrapper {
+}
+
+.vv-container .vv-wrapper .vv-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.vv-container .vv-wrapper .vv-item .vv-item-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.vv-container .vv-wrapper .vv-item .vv-item-children {
+  display: flex;
+  justify-content: center;
+}
+
+.vv-container .vv-wrapper .vv-item .vv-item-children .vv-item-child {
+}
+
+.card {
+  background-color: rgb(231, 146, 163);
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+.hv-container {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: bisque;
+}
+
+.hv-container .hv-wrapper {
+}
+
+.hv-container .hv-wrapper .hv-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.hv-container .hv-wrapper .hv-item .hv-item-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hv-container .hv-wrapper .hv-item .hv-item-children {
+    display: flex;
+    flex-direction: row;
+}
+
+.hv-container .hv-wrapper .hv-item .hv-item-children .hv-item-child {
+}
+
+.card {
+  background-color: rgb(231, 146, 163);
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+}

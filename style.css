@@ -1,0 +1,35 @@
+body{
+  background-color:rgb(226, 194, 188);
+}
+
+.vv-container{
+  /* width: 85%; */
+}
+.vv-wrapper{}
+
+.vv-item{
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+}
+
+.vv-children{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  /* background-color: black; */
+}
+.vv-child{
+  margin-left: 20px;
+}
+
+.simple-card{
+  margin: 0;
+  color: rgb(34, 127, 208);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 100px;
+  background-color: rgb(250, 248, 246);
+  box-shadow: 0 3px 6px rgba(204, 131, 103, 0.22);
+}
